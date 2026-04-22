@@ -1,42 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Shahal Portfolio</title>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
   <style>
     body {
       font-family: Arial;
-      text-align: center;
+      margin: 0;
       background: #0f172a;
       color: white;
     }
-
-    h1 {
-      color: #38bdf8;
+    header {
+      text-align: center;
+      padding: 50px;
+      background: #1e293b;
     }
-
-    button {
-      padding: 10px 20px;
-      background: #38bdf8;
-      border: none;
-      color: black;
-      cursor: pointer;
-      margin: 10px;
+    section {
+      padding: 40px;
+    }
+    .project {
+      background: #1e293b;
+      margin: 10px 0;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    a {
+      color: #38bdf8;
+      text-decoration: none;
     }
   </style>
 </head>
 
 <body>
 
-  <h1>Hello, I'm Shahal 🚀</h1>
-  <p>Welcome to my website</p>
+<header>
+  <h1>Muhammed Shahal T</h1>
+  <p>Web Developer | Student | Tech Enthusiast</p>
+</header>
 
-  <button onclick="showMessage()">Click Me</button>
+<section>
+  <h2>About Me</h2>
+  <p>I am learning JavaScript and building cool projects.</p>
+</section>
 
-  <script>
-    function showMessage() {
-      alert("Welcome to my site 😎");
-    }
-  </script>
+<section>
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>Project 1</h3>
+    <p>Description of your project</p>
+    <a href="#">View Project</a>
+  </div>
+
+  <div class="project">
+    <h3>Project 2</h3>
+    <p>Description of your project</p>
+    <a href="#">View Project</a>
+  </div>
+
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: shahaltheyyalakkal86@gmail.com</p>
+</section>
 
 </body>
 </html>
