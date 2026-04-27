@@ -16,16 +16,16 @@
       --accent:  #1a1a1a;
       --blue:    #1d4ed8;
       --blue-l:  #eff6ff;
- 
+
       --serif: 'EB Garamond', Georgia, serif;
       --sans:  'Outfit', sans-serif;
- 
+
       --max: 1060px;
     }
- 
+
     *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
     html { scroll-behavior:smooth; }
- 
+
     body {
       font-family: var(--sans);
       font-weight: 300;
@@ -33,12 +33,12 @@
       color: var(--ink);
       line-height: 1.6;
     }
- 
+
     /* ── Scrollbar ── */
     ::-webkit-scrollbar { width:4px; }
     ::-webkit-scrollbar-track { background:#f1f1f1; }
     ::-webkit-scrollbar-thumb { background:#ccc; border-radius:2px; }
- 
+
     /* ═══════════════════════════════
        NAV
     ═══════════════════════════════ */
@@ -83,15 +83,15 @@
       transition: background .2s !important;
     }
     .nav-cta:hover { background: #333 !important; color: var(--white) !important; }
- 
+
     /* ═══════════════════════════════
        SHARED
     ═══════════════════════════════ */
     .container { max-width: var(--max); margin:0 auto; padding:0 2rem; }
- 
+
     section { padding: 6rem 0; }
     section:nth-child(odd) { background: var(--off); }
- 
+
     .label {
       font-size: .68rem;
       font-weight: 500;
@@ -117,14 +117,14 @@
       line-height: 1.8;
       max-width: 520px;
     }
- 
+
     /* thin rule */
     hr.thin {
       border: none;
       border-top: 1px solid var(--border);
       margin: 3.5rem 0;
     }
- 
+
     /* ═══════════════════════════════
        HERO
     ═══════════════════════════════ */
@@ -202,7 +202,7 @@
       color: var(--mid);
     }
     .btn-border:hover { border-color:var(--ink); color:var(--ink); transform:translateY(-2px); }
- 
+
     /* avatar / photo box */
     .hero-photo {
       aspect-ratio: 4/5;
@@ -233,7 +233,7 @@
       text-transform: uppercase;
       color: var(--muted);
     }
- 
+
     /* hero metrics row */
     .hero-metrics {
       display: flex;
@@ -257,7 +257,7 @@
       color: var(--muted);
       margin-top: .3rem;
     }
- 
+
     /* ═══════════════════════════════
        ABOUT
     ═══════════════════════════════ */
@@ -274,7 +274,7 @@
       margin-bottom: 1rem;
     }
     .about-body p b { color:var(--ink); font-weight:500; }
- 
+
     .info-table { width:100%; border-collapse:collapse; margin-top:2rem; }
     .info-table tr { border-bottom:1px solid var(--border); }
     .info-table td {
@@ -292,7 +292,7 @@
       padding-right:1rem;
     }
     .info-table td:last-child { color:var(--mid); }
- 
+
     /* cards on right side */
     .about-cards { display:flex; flex-direction:column; gap:1rem; }
     .acard {
@@ -322,7 +322,7 @@
       color: var(--muted);
       text-align:right;
     }
- 
+
     /* ═══════════════════════════════
        SKILLS
     ═══════════════════════════════ */
@@ -345,7 +345,7 @@
     }
     .skills-nav li:hover { color:var(--ink); }
     .skills-nav li.active { color:var(--ink); }
- 
+
     .skill-blocks { display:flex; flex-direction:column; gap:2.8rem; }
     .skill-block h4 {
       font-size: .68rem;
@@ -372,7 +372,7 @@
       color: var(--white);
       transform: translateY(-2px);
     }
- 
+
     /* ═══════════════════════════════
        PROJECTS
     ═══════════════════════════════ */
@@ -388,7 +388,7 @@
     }
     .proj-row:first-child { border-top:1px solid var(--border); }
     .proj-row:hover { background: var(--off); margin:0 -2rem; padding-left:2rem; padding-right:2rem; }
- 
+
     .proj-idx {
       font-family: var(--serif);
       font-size: 1.05rem;
@@ -423,7 +423,7 @@
     }
     .proj-link:hover { border-color:var(--ink); color:var(--ink); transform:translateX(3px); }
     .proj-link-arrow { font-size:.9rem; }
- 
+
     /* ═══════════════════════════════
        CONTACT
     ═══════════════════════════════ */
@@ -431,7 +431,7 @@
     #contact .label { color:#6b9aff; }
     #contact .heading { color:var(--white); }
     #contact .lead { color:#888; }
- 
+
     .contact-grid {
       display:grid;
       grid-template-columns:1fr 1fr;
@@ -453,7 +453,7 @@
       word-break:break-all;
     }
     .contact-email-link:hover { color:#93c5fd; }
- 
+
     .socials { display:flex; flex-direction:column; gap:0; }
     .social-row-link {
       display:flex; align-items:center; justify-content:space-between;
@@ -472,7 +472,7 @@
     .social-row-link:hover span:first-child { color:var(--white); }
     .social-row-link span:last-child { color:#444; font-size:.8rem; }
     .social-row-link:hover span:last-child { color:#aaa; }
- 
+
     /* right side card */
     .contact-card {
       background:#161616;
@@ -493,7 +493,7 @@
       transition:background .2s, transform .2s;
     }
     .contact-card .cta-btn:hover { background:#e5e5e5; transform:translateY(-2px); }
- 
+
     /* ═══════════════════════════════
        FOOTER
     ═══════════════════════════════ */
@@ -510,7 +510,7 @@
       font-size:.68rem; letter-spacing:.1em; text-transform:uppercase; color:#444;
     }
     footer span { color:#666; }
- 
+
     /* ═══════════════════════════════
        REVEAL
     ═══════════════════════════════ */
@@ -519,12 +519,12 @@
       transition: opacity .65s ease, transform .65s ease;
     }
     .reveal.in { opacity:1; transform:translateY(0); }
- 
+
     @keyframes up {
       from { opacity:0; transform:translateY(18px); }
       to   { opacity:1; transform:translateY(0); }
     }
- 
+
     /* ═══════════════════════════════
        RESPONSIVE
     ═══════════════════════════════ */
@@ -547,7 +547,7 @@
   </style>
 </head>
 <body>
- 
+
 <!-- ══════════════════════════════════════════
      HEADER / NAV  ✏️ your name · links
 ══════════════════════════════════════════ -->
@@ -562,7 +562,7 @@
     </ul>
   </nav>
 </header>
- 
+
 <!-- ══════════════════════════════════════════
      HERO  ✏️ name · role · intro text
 ══════════════════════════════════════════ -->
@@ -571,22 +571,22 @@
     <div class="hero-grid">
       <div>
         <p class="hero-tag">Full Stack Developer · Cybersecurity Enthusiast</p>
- 
+
         <h1 class="hero-h1">
           Muhammed<br/><em>Shahal T</em>  <!-- ✏️ Your name -->
         </h1>
- 
+
         <p class="hero-p">
           B.Tech student at <b style="color:var(--ink);font-weight:500">Lovely Professional University</b>,
           building full-stack applications and exploring cybersecurity —
           passionate about creating secure, scalable software that solves real-world problems.
         </p>
- 
+
         <div class="hero-actions">
           <a href="#projects" class="btn btn-dark">View My Work</a>
           <a href="#contact" class="btn btn-border">Get in Touch</a>
         </div>
- 
+
         <!-- ✏️ Edit these metrics to reflect your real numbers -->
         <div class="hero-metrics">
           <div>
@@ -607,19 +607,14 @@
           </div>
         </div>
       </div>
- 
-      <!-- ✏️ TO ADD YOUR PHOTO:
-           Replace the two inner divs with:
-           <img src="your-photo.jpg" alt="Muhammed Shahal T"/>
-      -->
+
       <div class="hero-photo">
-        <div class="ph">👤</div>
-        <span class="ph-label">Your Photo Here</span>
+        <img src="photo.jpg" alt="Muhammed Shahal T"/>
       </div>
     </div>
   </div>
 </section>
- 
+
 <!-- ══════════════════════════════════════════
      ABOUT  ✏️ bio · info table · cards
 ══════════════════════════════════════════ -->
@@ -628,7 +623,7 @@
     <span class="label reveal">About</span>
     <h2 class="heading reveal">A brief introduction</h2>
     <hr class="thin">
- 
+
     <div class="about-grid">
       <div class="about-body">
         <p class="reveal">
@@ -646,7 +641,7 @@
           scalable systems — bridging the gap between full-stack development and
           cybersecurity engineering.
         </p>
- 
+
         <!-- ✏️ Edit your personal details -->
         <table class="info-table reveal">
           <tr><td>Full Name</td><td>Muhammed Shahal T</td></tr>
@@ -658,7 +653,7 @@
           <tr><td>Status</td><td>Student — Open to Opportunities</td></tr>
         </table>
       </div>
- 
+
       <!-- ✏️ Edit stat cards -->
       <div class="about-cards reveal">
         <div class="acard">
@@ -681,7 +676,7 @@
     </div>
   </div>
 </section>
- 
+
 <!-- ══════════════════════════════════════════
      SKILLS  ✏️ Add / remove pills
 ══════════════════════════════════════════ -->
@@ -693,7 +688,7 @@
       Technologies and tools I've been learning and working with during my studies.
     </p>
     <hr class="thin">
- 
+
     <div class="skills-layout">
       <!-- sticky side nav (desktop) -->
       <ul class="skills-nav">
@@ -702,9 +697,9 @@
         <li>Tools</li>
         <li>CS Concepts</li>
       </ul>
- 
+
       <div class="skill-blocks">
- 
+
         <div class="skill-block reveal">
           <h4>Programming Languages</h4>
           <div class="pills">
@@ -715,7 +710,7 @@
             <span class="pill">SQL</span>
           </div>
         </div>
- 
+
         <div class="skill-block reveal">
           <h4>Full Stack Development</h4>
           <div class="pills">
@@ -730,7 +725,7 @@
             <span class="pill">CSS3</span>
           </div>
         </div>
- 
+
         <div class="skill-block reveal">
           <h4>Cybersecurity</h4>
           <div class="pills">
@@ -742,7 +737,7 @@
             <span class="pill">bcryptjs</span>
           </div>
         </div>
- 
+
         <div class="skill-block reveal">
           <h4>Tools &amp; Environment</h4>
           <div class="pills">
@@ -754,7 +749,7 @@
             <span class="pill">Postman</span>
           </div>
         </div>
- 
+
         <div class="skill-block reveal">
           <h4>Computer Science</h4>
           <div class="pills">
@@ -765,12 +760,12 @@
             <span class="pill">Operating Systems</span>
           </div>
         </div>
- 
+
       </div>
     </div>
   </div>
 </section>
- 
+
 <!-- ══════════════════════════════════════════
      PROJECTS  ✏️ Edit each project row
 ══════════════════════════════════════════ -->
@@ -782,9 +777,9 @@
       A selection of things I've built while learning and growing as a developer.
     </p>
     <hr class="thin">
- 
+
     <div class="proj-list">
- 
+
       <div class="proj-row reveal">
         <div class="proj-idx">01</div>
         <div class="proj-body">
@@ -809,7 +804,7 @@
           View <span class="proj-link-arrow">↗</span>
         </a>
       </div>
- 
+
       <div class="proj-row reveal">
         <div class="proj-idx">02</div>
         <div class="proj-body">
@@ -829,7 +824,7 @@
           View <span class="proj-link-arrow">↗</span>
         </a>
       </div>
- 
+
       <div class="proj-row reveal">
         <div class="proj-idx">03</div>
         <div class="proj-body">
@@ -846,11 +841,11 @@
           GitHub <span class="proj-link-arrow">↗</span>
         </a>
       </div>
- 
+
     </div>
   </div>
 </section>
- 
+
 <!-- ══════════════════════════════════════════
      CONTACT  ✏️ email · socials
 ══════════════════════════════════════════ -->
@@ -861,14 +856,14 @@
     <p class="lead reveal">
       Open to internships, collaborations, and conversations about technology and software.
     </p>
- 
+
     <div class="contact-grid">
       <div>
         <!-- ✏️ Replace with your real email -->
         <a href="mailto:shahaltheyyalakkal86@gmail.com" class="contact-email-link reveal">
           shahaltheyyalakkal86@gmail.com
         </a>
- 
+
         <!-- ✏️ Replace YOUR_USERNAME in each href -->
         <div class="socials reveal">
           <a href="https://github.com/mhdshahal64-coder" target="_blank" class="social-row-link">
@@ -881,7 +876,7 @@
           </a>
         </div>
       </div>
- 
+
       <div class="contact-card reveal">
         <p>
           I'm a B.Tech student at LPU focused on full-stack development and cybersecurity.
@@ -893,7 +888,7 @@
     </div>
   </div>
 </section>
- 
+
 <!-- ══════════════════════════════════════════
      FOOTER  ✏️ name · year
 ══════════════════════════════════════════ -->
@@ -903,7 +898,7 @@
     <p>B.Tech Student · <span>Lovely Professional University</span> · India</p>
   </div>
 </footer>
- 
+
 <script>
   /* Scroll reveal */
   const io = new IntersectionObserver(entries => {
@@ -912,7 +907,7 @@
     });
   }, { threshold: 0.07 });
   document.querySelectorAll('.reveal').forEach(el => io.observe(el));
- 
+
   /* Active nav highlight */
   const secs = document.querySelectorAll('section[id]');
   const links = document.querySelectorAll('.nav-menu a');
